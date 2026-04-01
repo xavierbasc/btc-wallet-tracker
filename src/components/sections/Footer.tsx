@@ -10,7 +10,7 @@ export function Footer() {
           <div>
             <p className="font-pixel text-btc-orange text-xs mb-3">₿TC Tracker</p>
             <p className="font-sans text-sm text-zinc-500">
-              By Javier Báscones. Privacy-first Bitcoin portfolio monitoring for iOS and Android.
+              Privacy-first Bitcoin portfolio monitoring for iOS and Android.
             </p>
           </div>
 
@@ -46,14 +46,14 @@ export function Footer() {
         </div>
 
         <div className="border-t border-zinc-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="font-mono text-xs text-zinc-600">
-            © {year} Javier Báscones · BTC Tracker v1.0.0
-          </p>
           <div className="flex items-center gap-4">
             <span className="font-mono text-xs text-emerald-500">● No cookies</span>
             <span className="font-mono text-xs text-emerald-500">● No tracking</span>
             <span className="font-mono text-xs text-emerald-500">● GDPR safe</span>
           </div>
+          <p className="font-sans text-xs text-zinc-700">
+            © {year} Javier Báscones
+          </p>
         </div>
       </div>
     </footer>
