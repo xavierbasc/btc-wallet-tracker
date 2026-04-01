@@ -22,15 +22,13 @@ export function Footer() {
                 { href: '#features', label: 'Features' },
                 { href: '#manual', label: 'User Manual' },
                 { href: '#privacy', label: 'Privacy Policy' },
-                { href: 'https://github.com/bastronic/btc-tracker', label: 'GitHub Repository', external: true },
               ].map(link => (
                 <li key={link.href}>
                   <a
                     href={link.href}
                     className="font-sans text-sm text-zinc-400 hover:text-btc-orange transition-colors"
-                    {...(link.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
                   >
-                    {link.label} {link.external && <span aria-hidden="true">↗</span>}
+                    {link.label}
                   </a>
                 </li>
               ))}
