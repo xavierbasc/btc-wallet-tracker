@@ -33,7 +33,7 @@ export function Hero() {
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
         {/* Pill badge */}
         <div className="flex justify-center mb-6">
-          <Badge label="v1.0 · Free · Open Source" variant="orange" />
+          <Badge label="v1.0 · Javier Báscones" variant="orange" />
         </div>
 
         {/* Main heading */}
@@ -41,7 +41,7 @@ export function Hero() {
           BTC Tracker
         </h1>
         <p className="font-pixel text-zinc-500 text-xs sm:text-sm leading-relaxed mb-8">
-          by Bastronic
+          by Javier Báscones
         </p>
 
         {/* Tagline */}
@@ -76,7 +76,7 @@ export function Hero() {
 
         {/* Feature badges */}
         <div className="flex flex-wrap gap-2 justify-center">
-          {['No Account', 'No Analytics', 'No Cloud', 'GDPR Safe', 'MIT License'].map(label => (
+          {['No Account', 'No Analytics', 'No Cloud', 'GDPR Safe'].map(label => (
             <Badge key={label} label={label} variant="zinc" />
           ))}
         </div>

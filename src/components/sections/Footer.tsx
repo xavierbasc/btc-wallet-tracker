@@ -10,7 +10,7 @@ export function Footer() {
           <div>
             <p className="font-pixel text-btc-orange text-xs mb-3">₿TC Tracker</p>
             <p className="font-sans text-sm text-zinc-500">
-              A Bastronic product. Privacy-first Bitcoin portfolio monitoring for iOS and Android.
+              By Javier Báscones. Privacy-first Bitcoin portfolio monitoring for iOS and Android.
             </p>
           </div>
 
@@ -41,7 +41,7 @@ export function Footer() {
           <div>
             <p className="font-mono text-xs text-zinc-500 mb-3 uppercase tracking-widest">Legal</p>
             <p className="font-sans text-sm text-zinc-500 leading-relaxed">
-              MIT License. No warranties. BTC balances are fetched from public blockchain APIs.
+              All rights reserved. BTC balances are fetched from public blockchain APIs.
               Always verify with your own node.
             </p>
           </div>
@@ -49,7 +49,7 @@ export function Footer() {
 
         <div className="border-t border-zinc-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="font-mono text-xs text-zinc-600">
-            © {year} Bastronic · BTC Tracker v1.0.0
+            © {year} Javier Báscones · BTC Tracker v1.0.0
           </p>
           <div className="flex items-center gap-4">
             <span className="font-mono text-xs text-emerald-500">● No cookies</span>
