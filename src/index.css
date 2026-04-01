@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --btc-orange: #F7931A;
+    scroll-behavior: smooth;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    @apply bg-zinc-950 text-zinc-100 font-sans antialiased;
+    font-feature-settings: 'kern' 1, 'liga' 1;
+  }
+
+  h1, h2, h3 {
+    @apply font-pixel leading-relaxed;
+  }
+}
+
+@layer utilities {
+  .text-btc-gradient {
+    background: linear-gradient(135deg, #F7931A 0%, #FDB462 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .glow-btc {
+    box-shadow: 0 0 40px rgba(247, 147, 26, 0.15);
+  }
+
+  .phone-frame {
+    border-radius: 40px;
+    border: 3px solid rgba(247, 147, 26, 0.3);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255,255,255,0.05);
+    overflow: hidden;
+  }
+}

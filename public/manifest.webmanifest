@@ -1,0 +1,13 @@
+{
+  "name": "BTC Tracker — Bastronic",
+  "short_name": "BTC Tracker",
+  "description": "Track your Bitcoin wallet balances privately, offline-first.",
+  "start_url": "/btc-wallet-tracker/",
+  "display": "standalone",
+  "background_color": "#0D0D0D",
+  "theme_color": "#F7931A",
+  "icons": [
+    { "src": "/btc-wallet-tracker/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "/btc-wallet-tracker/favicon.ico", "sizes": "48x48", "type": "image/x-icon" }
+  ]
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bastronic.github.io/btc-tracker/sitemap.xml
