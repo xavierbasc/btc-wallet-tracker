@@ -7,7 +7,7 @@ const TICKER_ITEMS = [
   '💱 6 CURRENCIES',
   '🌙 DARK MODE',
   '✅ GDPR SAFE',
-  '🔓 OPEN SOURCE',
+  '📲 iOS + ANDROID',
   '⚡ NO ACCOUNT',
 ];
 

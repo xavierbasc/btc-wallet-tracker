@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bastronic.github.io/btc-tracker/sitemap.xml
+Sitemap: https://xavierbasc.github.io/btc-wallet-tracker/sitemap.xml
