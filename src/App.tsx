@@ -7,6 +7,10 @@ import { Testimonials } from './components/sections/Testimonials';
 import { Privacy } from './components/sections/Privacy';
 import { Footer } from './components/sections/Footer';
 
+function Divider() {
+  return <div className="section-divider mx-auto max-w-4xl" aria-hidden="true" />;
+}
+
 export default function App() {
   return (
     <>
@@ -19,10 +23,15 @@ export default function App() {
       <Navbar />
       <main id="main-content">
         <Hero />
+        <Divider />
         <Features />
+        <Divider />
         <Screenshots />
+        <Divider />
         <Manual />
+        <Divider />
         <Testimonials />
+        <Divider />
         <Privacy />
       </main>
       <Footer />
