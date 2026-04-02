@@ -59,7 +59,7 @@ export function Hero() {
           {/* Text content */}
           <div className="flex-1 text-center lg:text-left">
             <div className="flex justify-center lg:justify-start mb-6">
-              <Badge label="v1.0 · Open Beta" variant="orange" />
+              <Badge label="v1.0 · Available Now" variant="orange" />
             </div>
 
             <h1 className="font-pixel text-btc-orange text-2xl sm:text-3xl lg:text-4xl leading-relaxed mb-6">
